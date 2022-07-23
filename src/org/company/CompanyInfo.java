@@ -21,6 +21,10 @@ public class CompanyInfo {
 		System.out.println("companyBranches:Chennai,Coimbatore");
 	}
 
+	private void manageingDirector() {
+		System.out.println("Manageing Director: RaviKumar");
+	}
+
 	public static void main(String[] args) {
 		// className objectRefName = new ClassName;
 		CompanyInfo v = new CompanyInfo();
@@ -29,6 +33,11 @@ public class CompanyInfo {
 		v.companyAddress();
 		v.companyId();
 		v.companyBranches();
+		v.manageingDirector();
+		
+		
+		
+		
 	}
 
 }
